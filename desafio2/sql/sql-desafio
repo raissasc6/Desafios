@@ -1,0 +1,12 @@
+﻿
+CREATE TABLE aluno(
+  id_aluno serial,
+  nome_aluno varchar(255),
+  idade_aluno int,
+  constraint pk_id_aluno primary key(id_aluno)
+);
+
+
+select * from aluno;
+
+insert into aluno (nome_aluno, idade_aluno) values ('Raissa' , 18);
